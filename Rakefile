@@ -21,5 +21,8 @@ namespace :db do
     Student.create_table
   end 
   
-  desc ''
+  desc 'seed the database'
+  task :seed do 
+    
+  end 
 end 
