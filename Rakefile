@@ -1,5 +1,5 @@
 task :environement do 
-  require_relative
+  require_relative './config/'
 end 
 namespace :greeting do
 desc 'outputs hello to the terminal'
